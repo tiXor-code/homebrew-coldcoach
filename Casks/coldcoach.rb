@@ -14,7 +14,7 @@ cask "coldcoach" do
   desc "Local, open-source live coaching for cold calls"
   homepage "https://github.com/tiXor-code/coldcoach"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on arch: :arm64
 
   app "ColdCoach.app"
